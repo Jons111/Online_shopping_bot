@@ -203,7 +203,7 @@ async def bot_start(xabar: CallbackQuery):
         await Sotib_olish.max_tanlash_holati.set()
 
     elif malumot[0] =='tolov':
-        payment_token = "371317599:TEST:1675139898651"
+        payment_token = "371317599:TEST:1673849298550"
         korzinka_maxsulot = base.select_maxsulot_from_korzinka(id=malumot[1])
         print(korzinka_maxsulot)
         max_id = korzinka_maxsulot[0]
